@@ -9,7 +9,7 @@ app.use(cookieParser(process.env.COOKIE_SECRET));
 app.use(express.json());
 app.use(
     cors({
-        origin: ["http://localhost:5173","https://job-hai-server.vercel.app"],
+        origin: ["https://job-hai-server.vercel.app"],
         methods: ["GET,POST,DELETE,PUT,PATCH"],
         credentials: true,
     })
