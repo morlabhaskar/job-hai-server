@@ -16,9 +16,7 @@ app.use(
 );
 
 // Custom Middlewares
-const {
-    authenticateUser,
-} = require("./Middleware/UserAuthenticationMiddleware");
+const { authenticateUser} = require("./Middleware/UserAuthenticationMiddleware");
 
 // Routers
 const JobRouter = require("./Router/JobRouter");
